@@ -3,7 +3,6 @@ import { ChakraProvider } from '@chakra-ui/react'
 import { extendTheme } from '@chakra-ui/react'
 import * as ReactDOM from 'react-dom/client'
 import App from './App'
-import './index.css'
 
 // 2. Extend the theme to include custom colors, fonts, etc
 const colors = {

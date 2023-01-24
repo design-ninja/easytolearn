@@ -6,11 +6,11 @@ import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Projects from "@/components/Projects";
 
-// import './App.css'
+import './App.scss'
 
 export function App() {
   return (
-    <Box bg="gray.100" w="100vw">
+    <Box w="100vw" className="background">
       <Header />
       <Container maxW='1000px' centerContent>
         <Hero />
