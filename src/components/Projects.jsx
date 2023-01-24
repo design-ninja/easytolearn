@@ -13,13 +13,13 @@ function Projects() {
       <Stack direction={["column", "row"]} spacing="24px">
         <Project
           title="Lang.app"
-          description="Access to subtitles in a foreign language, save and review new words and phrases, quick dictionary lookup"
+          description="Learn any language using any YouTube video! Access to subtitles in a foreign language, save and review new words and phrases, quick dictionary lookup."
           image={langapp}
           link="#"
         />
         <Project
           title="TextMastery Tutor"
-          description="Empower your language teaching with TextMastery Tutor. Generate engaging reading materials and simplify texts for your students"
+          description="Empower your language teaching with TextMastery Tutor. Generate engaging reading materials and simplify texts for your students."
           image={textmastery}
           link="#"
         />
