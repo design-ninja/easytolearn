@@ -28,7 +28,7 @@ function Project(props) {
         borderColor="gray.200"
         mb="4"
       />
-      <Heading as="h2" size="md" mb="2">
+      <Heading as="h3" size="md" mb="2">
         {title}
       </Heading>
       <Text mb="4" flex='1'>{description}</Text>

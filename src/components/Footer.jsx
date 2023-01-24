@@ -3,7 +3,7 @@ import { Box, Container, Stack, Text, Link, HStack } from "@chakra-ui/react";
 
 function Footer() {
   return (
-    <Box bg="gray.50" color="gray.700" mt="16">
+    <Box bg="gray.50" color="gray.700">
       <Container
         as={Stack}
         maxW={"6xl"}

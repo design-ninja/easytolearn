@@ -1,5 +1,5 @@
 import React from "react";
-import { Stack, Heading, VStack } from "@chakra-ui/react";
+import { Stack, Heading, Box } from "@chakra-ui/react";
 
 import Project from "./Project";
 
@@ -8,8 +8,8 @@ import textmastery from "@/assets/projects/textmastery.jpg";
 
 function Projects() {
   return (
-    <VStack spacing={4}>
-      <Heading as="h2" size="lg" mb={4}>Our projects</Heading>
+    <Box spacing={4} pt={8} pb={24}>
+      <Heading as="h3" textAlign="center" mb={12}>Our projects</Heading>
       <Stack direction={["column", "row"]} spacing="24px">
         <Project
           title="Lang.app"
@@ -24,7 +24,7 @@ function Projects() {
           link="#"
         />
       </Stack>
-    </VStack>
+    </Box>
   );
 }
 
