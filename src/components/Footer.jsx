@@ -13,7 +13,7 @@ function Footer() {
         justify="center"
         align={{ base: "center", md: "center" }}
       >
-        <Text>
+        <Text textAlign='center'>
           This site and apps are developed by Maigic Web Solutions, a company
           which created{" "}
           <Link href="#" isExternal color="teal.400">
