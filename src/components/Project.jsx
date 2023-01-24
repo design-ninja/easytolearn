@@ -5,10 +5,8 @@ import {
   Heading,
   Text,
   Image,
-  LinkBox,
-  LinkOverlay,
   Flex,
-  Box,
+  Button,
 } from "@chakra-ui/react";
 
 function Project(props) {
@@ -34,14 +32,9 @@ function Project(props) {
         {title}
       </Heading>
       <Text mb="4" flex='1'>{description}</Text>
-      <Box
-        as="a"
-        color="teal.400"
-        href="#"
-        fontWeight="bold"
-      >
+      <Button colorScheme='teal' size='lg'>
         View project
-      </Box>
+      </Button>
     </Flex>
   );
 }
