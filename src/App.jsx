@@ -1,10 +1,11 @@
 import React from "react";
 import { Box, Container } from "@chakra-ui/react";
 
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import Projects from "./components/Projects";
-import Project from "./components/Project";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import Hero from "@/components/Hero";
+import Projects from "@/components/Projects";
+import Project from "@/components/Project";
 
 // import './App.css'
 
@@ -20,6 +21,7 @@ export function App() {
           <Project />
         </Projects>
       </Container>
+      <Footer />
     </Box>
   );
 }
