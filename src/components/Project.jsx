@@ -1,38 +1,63 @@
 import React from "react";
+import propTypes from "prop-types";
+
 import {
-  Card,
-  CardBody,
-  Stack,
   Heading,
   Text,
   Image,
-  Link,
+  LinkBox,
+  LinkOverlay,
+  Flex,
+  Box,
 } from "@chakra-ui/react";
-import { ExternalLinkIcon } from '@chakra-ui/icons';
 
-function Project() {
+function Project(props) {
+  const { image, title, description, link } = props;
   return (
-    <Card maxW="md">
-      <CardBody>
-        <Image
-          src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
-          alt="Green double couch with wooden legs"
-          borderRadius="md"
-        />
-        <Stack mt="3" spacing="3">
-          <Heading size="md">Project</Heading>
-          <Text>
-            This sofa is perfect for modern tropical spaces, baroque inspired
-            spaces, earthy toned spaces and for people who love a chic design
-            with a sprinkle of vintage design.
-          </Text>
-          <Link href='#' isExternal>
-            View project <ExternalLinkIcon mx='2px' />
-          </Link>
-        </Stack>
-      </CardBody>
-    </Card>
+    <Flex
+      maxW="sm"
+      p="8"
+      borderWidth="1px"
+      rounded="md"
+      bg="white"
+      flexDirection='column'
+    >
+      <Image
+        src={image}
+        alt={title}
+        borderRadius="md"
+        border="1px solid"
+        borderColor="gray.200"
+        mb="4"
+      />
+      <Heading as="h2" size="md" mb="2">
+        {title}
+      </Heading>
+      <Text mb="4" flex='1'>{description}</Text>
+      <Box
+        as="a"
+        color="teal.400"
+        href="#"
+        fontWeight="bold"
+      >
+        View project
+      </Box>
+    </Flex>
   );
 }
+
+Project.propTypes = {
+  image: propTypes.string,
+  title: propTypes.string,
+  description: propTypes.string,
+  link: propTypes.string,
+};
+
+Project.defaultProps = {
+  image: null,
+  title: null,
+  description: null,
+  link: null,
+};
 
 export default Project;

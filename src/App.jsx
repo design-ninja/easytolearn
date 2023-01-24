@@ -5,7 +5,6 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Projects from "@/components/Projects";
-import Project from "@/components/Project";
 
 // import './App.css'
 
@@ -15,11 +14,7 @@ export function App() {
       <Header />
       <Container maxW='1000px' centerContent>
         <Hero />
-        <Projects>
-          <Project />
-          <Project />
-          <Project />
-        </Projects>
+        <Projects />
       </Container>
       <Footer />
     </Box>
