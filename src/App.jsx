@@ -11,7 +11,7 @@ import Project from "./components/Project";
 export function App() {
   return (
     <Box bg="gray.100" w="100vw">
-      <Header />
+      {/* <Header /> */}
       <Container maxW='1000px' centerContent>
         <Hero />
         <Projects>
