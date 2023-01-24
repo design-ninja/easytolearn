@@ -1,12 +1,12 @@
 import React from "react";
-import { Box, Heading, Text, Button, Stack } from "@chakra-ui/react";
+import { Box, Heading, Text, Stack } from "@chakra-ui/react";
 
 function Hero() {
   return (
     <Stack
       as={Box}
       textAlign={"center"}
-      spacing={{ base: 8, md: 8 }}
+      spacing={8}
       py={{ base: 8, md: 16 }}
     >
       <Heading
@@ -26,9 +26,6 @@ function Hero() {
         alignSelf={"center"}
         position={"relative"}
       >
-        <Button colorScheme={"teal"} size={"lg"}>
-          Get Started
-        </Button>
       </Stack>
     </Stack>
   );
