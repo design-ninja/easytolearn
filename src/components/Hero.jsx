@@ -19,14 +19,6 @@ function Hero() {
       <Text color={"gray.600"} fontSize='xl'>
         We believe that teachers will not be replaced by AI, but 98.7% of their routine work will
       </Text>
-      <Stack
-        direction={"column"}
-        spacing={3}
-        align={"center"}
-        alignSelf={"center"}
-        position={"relative"}
-      >
-      </Stack>
     </Stack>
   );
 }
