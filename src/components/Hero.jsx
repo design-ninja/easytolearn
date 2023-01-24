@@ -11,18 +11,13 @@ function Hero() {
     >
       <Heading
         fontWeight={700}
-        fontSize={{ base: "4xl", sm: "5xl", md: "6xl" }}
-        lineHeight={"110%"}
+        fontSize={{ base: "4xl", sm: "5xl", md: "5xl" }}
+        lineHeight={"120%"}
       >
-        Make money from <br />
-        <Text as={"span"} color={"teal.400"}>
-          your audience
-        </Text>
+        We are building a set of tools for foreign language teachers and learners
       </Heading>
       <Text color={"gray.600"} fontSize='xl'>
-        Monetize your content by charging your most loyal readers and reward
-        them loyalty points. Give back to your loyal readers by granting them
-        access to your pre-releases and sneak-peaks.
+        We believe that teachers will not be replaced by AI, but 98.7% of their routine work will.
       </Text>
       <Stack
         direction={"column"}
