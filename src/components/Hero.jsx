@@ -17,7 +17,7 @@ function Hero() {
         We are building a set of tools for foreign language teachers and learners
       </Heading>
       <Text color={"gray.600"} fontSize='xl'>
-        We believe that teachers will not be replaced by AI, but 98.7% of their routine work will.
+        We believe that teachers will not be replaced by AI, but 98.7% of their routine work will
       </Text>
       <Stack
         direction={"column"}
