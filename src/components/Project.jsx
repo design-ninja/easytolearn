@@ -15,10 +15,10 @@ function Project(props) {
     <Flex
       maxW="sm"
       p="8"
-      borderWidth="1px"
       rounded="md"
       bg="white"
       flexDirection='column'
+      boxShadow='md'
     >
       <Image
         src={image}
