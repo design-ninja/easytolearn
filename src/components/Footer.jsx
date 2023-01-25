@@ -37,7 +37,25 @@ function Footer() {
             Contentcal
           </Link>
         </Text>
-        <Box as={HStack} spacing={4}>
+        <Box as={HStack} spacing={8}>
+          <Link
+            href="#"
+            title="About the company"
+            isExternal
+            color="teal.400"
+          >
+            About the company
+          </Link>
+          {" "}
+          <Link
+            href="#"
+            title="Our team"
+            isExternal
+            color="teal.400"
+          >
+            Our team
+          </Link>
+          {" "}
           <Link
             href="https://easytolearn.io/privacy_policy"
             title="Privacy policy"
@@ -45,7 +63,8 @@ function Footer() {
             color="teal.400"
           >
             Privacy policy
-          </Link>{" "}
+          </Link>
+          {" "}
           <Link
             href="https://easytolearn.io/#rec484876315"
             title="EasyToLearn Blog"
