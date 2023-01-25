@@ -40,7 +40,7 @@ function Subscribe() {
           />
           <Input type="email" placeholder="Your email" size="lg" />
         </InputGroup>
-        <Button colorScheme="teal" size="lg">
+        <Button colorScheme="purple" size="lg">
           Subscribe
         </Button>
       </Stack>
