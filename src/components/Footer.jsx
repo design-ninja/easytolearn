@@ -13,14 +13,27 @@ function Footer() {
         justify="center"
         align={{ base: "center", md: "center" }}
       >
-        <Text textAlign='center'>
+        <Text textAlign="center">
           This site and apps are developed by Maigic Web Solutions, a company
-          which created{" "}
-          <Link href="#" isExternal color="teal.400">
+          which created
+          {" "}
+          <Link
+            href="http://kanbanchi.com/"
+            isExternal
+            title="Kanbanchi"
+            color="teal.400"
+          >
             Kanbanchi
-          </Link>{" "}
-          and helped to launch{" "}
-          <Link href="#" isExternal color="teal.400">
+          </Link>
+          {" "}
+          and helped to launch
+          {" "}
+          <Link
+            href="https://www.contentcal.com/"
+            isExternal
+            title="Contentcal"
+            color="teal.400"
+          >
             Contentcal
           </Link>
         </Text>

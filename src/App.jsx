@@ -12,14 +12,14 @@ import './App.scss'
 export function App() {
   return (
     <Box>
-    <Box w="100vw" className="background">
-      <Header />
-      <Container maxW='900px' centerContent>
-        <Hero />
-        <Projects />
-      </Container>
-    </Box>
-      <Subscribe />
+      <Box w="100vw" className="background">
+        <Header />
+        <Container maxW='900px' centerContent>
+          <Hero />
+          <Projects />
+          <Subscribe />
+        </Container>
+      </Box>
       <Footer />
     </Box>
   );

@@ -1,11 +1,11 @@
 .background {
-  background: linear-gradient(rgb(white,0.9), rgb(white,0.8)), url("@/assets/bg.jpg");
+  background: linear-gradient(rgb(white,0.3), rgb(white,0.3)), url("@/assets/bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
+  background-position: center;
 }
 
 .marked {
   background-color: hsl(43, 93%, 90%);
-  padding: .25em .5em;
+  padding: .25em .3em;
 }

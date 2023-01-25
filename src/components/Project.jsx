@@ -15,7 +15,7 @@ function Project(props) {
     <Flex
       maxW="sm"
       p="8"
-      rounded="md"
+      rounded="lg"
       bg="white"
       flexDirection='column'
       boxShadow='md'

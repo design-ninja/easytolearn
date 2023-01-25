@@ -8,7 +8,7 @@ import textmastery from "@/assets/projects/textmastery.jpg";
 
 function Projects() {
   return (
-    <Box spacing={4} pt={8} pb={24}>
+    <Box spacing={4} pt={8}>
       <Heading as="h3" textAlign="center" mb={12}>Our projects</Heading>
       <Stack direction={["column", "row"]} spacing="24px">
         <Project

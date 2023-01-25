@@ -6,7 +6,7 @@ function Hero() {
     <Stack
       as={Box}
       textAlign={"center"}
-      py={{ base: 8, md: 12 }}
+      py={16}
       spacing="8"
     >
       <Heading
@@ -20,10 +20,10 @@ function Hero() {
         We believe that teachers will not be replaced by AI, <span className="marked">but 98.7% of their routine work will</span>
       </Text>
       <Text fontSize='xl'>
-        We believe that students <span class="marked">can and should do a lot themselves to master a language,</span> and with help of technology they can.
+        We believe that students <span className="marked">can and should do a lot themselves to master a language,</span> and with help of technology they can.
       </Text>
       <Text fontSize='xl'>
-        <span class="marked">Let teacher be a motivator, guide, inspiration, and a friend,</span> and computers can do all the dirty work.
+        <span className="marked">Let teacher be a motivator, guide, inspiration, and a friend,</span> and computers can do all the dirty work.
       </Text>
     </Stack>
   );
